@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- 크기 조절 -->
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!-- 타이틀 -->
+        <TextView 
+            android:id="@+id/customDialog_webview_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/round_top_black"
+            android:gravity="center"
+            android:text="@string/dialog_title"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        
+        
+	    <!-- Web Page -->
+	    <WebView
+	        android:id="@+id/customDialog_webview_wv"
+	        android:layout_width="fill_parent"
+	        android:layout_height="200dp"
+	        android:background="@color/white" />
+
+	    
+        <!-- 버튼 -->
+        <android.widget.Button
+            android:id="@+id/customDialog_webview_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="@drawable/round_bottom_black"
+            android:text="@string/Btn_confirm"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+</LinearLayout>

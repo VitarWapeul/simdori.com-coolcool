@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="300dp"
+    android:layout_height="180dp"
+    android:layout_gravity="center"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <!-- ID/PW 선택 창 -->
+    <LinearLayout
+        android:id="@+id/customDialog_select"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp" >
+        <!-- ID 찾기 -->
+        <TextView 
+	        android:id="@+id/customDialog_id"
+	        android:layout_width="150dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	       	android:gravity="center"
+	       	android:background="@color/app_main_color2"
+	        android:text="@string/login_btn_id_serch"
+	        android:textColor="@color/white"
+	        android:textSize="20dp"
+	        android:textStyle="bold" />
+        
+        <!-- Password 찾기 -->
+        <TextView 
+	        android:id="@+id/customDialog_pw"
+	        android:layout_width="150dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="@drawable/round_top_right_white"
+	        android:text="@string/login_btn_pass_serch"
+	        android:textColor="@color/hint"
+	        android:textSize="20dp" 
+	        android:textStyle="bold" />
+    </LinearLayout>
+    
+    <View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dp"
+	    android:background="@color/app_main_color" />
+    
+    <!-- 입력 창-->
+    <FrameLayout 
+        android:id="@+id/customDialog_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp" >
+        <!-- ID 찾기 -->
+		<LinearLayout
+			android:id="@+id/ID_Search_Linear"
+			android:layout_width="fill_parent"
+			android:layout_height="130dp"
+			android:layout_gravity="center"
+			android:background="@color/transparent"
+			android:orientation="vertical"
+			android:visibility="visible">
+			<!-- 타이틀 -->
+			<TextView
+				android:id="@+id/customDialog_ID_tv"
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:layout_gravity="center"
+				android:background="@color/white"
+				android:gravity="center"
+				android:text="@string/toast_email_null"
+				android:textColor="@color/hint"
+				android:textSize="20dp" />
+
+			<!-- 이메일 입력 -->
+			<EditText
+				android:id="@+id/customDialog_ID_edit"
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:layout_gravity="center"
+				android:background="@color/white"
+				android:gravity="center"
+				android:inputType="textEmailAddress"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:textSize="15dp" />
+
+			<!-- 버튼들 -->
+			<LinearLayout
+				android:id="@+id/ID_Search_Linear2"
+				android:layout_width="fill_parent"
+				android:layout_height="50dp">
+				<!-- 취소 -->
+				<android.widget.Button
+					android:id="@+id/customDialog_ID_btn_Cancel"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:layout_gravity="center"
+					android:layout_weight="1"
+					android:background="@drawable/round_bottom_left_black"
+					android:gravity="center"
+					android:text="@string/Btn_cancel"
+					android:textColor="@color/white"
+					android:textSize="18dp"
+					android:textStyle="bold" />
+
+				<View
+					android:layout_width="1dp"
+					android:layout_height="50dp"
+					android:background="@color/white" />
+
+				<!-- 확인  -->
+				<android.widget.Button
+					android:id="@+id/customDialog_ID_btn_Confirm"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:layout_gravity="center"
+					android:layout_weight="1"
+					android:background="@drawable/round_bottom_right_black"
+					android:gravity="center"
+					android:text="@string/Btn_confirm"
+					android:textColor="@color/white"
+					android:textSize="18dp"
+					android:textStyle="bold" />
+			</LinearLayout>
+		</LinearLayout>
+         
+         
+		<!-- 비밀번호 찾기 -->
+		<LinearLayout
+			android:id="@+id/PW_Search_Linear"
+			android:layout_width="fill_parent"
+			android:layout_height="130dp"
+			android:layout_gravity="center"
+			android:background="@color/transparent"
+			android:orientation="vertical"
+			android:visibility="invisible">
+			<!-- 타이틀 -->
+			<TextView
+				android:id="@+id/customDialog_PW_tv"
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:layout_gravity="center"
+				android:background="@color/white"
+				android:gravity="center"
+				android:text="@string/toast_id_null"
+				android:textColor="@color/hint"
+				android:textSize="20dp" />
+
+			<!-- ID 입력 -->
+			<EditText
+				android:id="@+id/customDialog_PW_id"
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:layout_gravity="center"
+				android:background="@color/white"
+				android:gravity="center"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:textSize="15dp" />
+
+			<!-- 버튼들 -->
+			<LinearLayout
+				android:id="@+id/PW_Search_Linear2"
+				android:layout_width="fill_parent"
+				android:layout_height="50dp">
+				<!-- 취소  -->
+				<android.widget.Button
+					android:id="@+id/customDialog_PW_btn_Cancel"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:layout_gravity="center"
+					android:layout_weight="1"
+					android:background="@drawable/round_bottom_left_black"
+					android:gravity="center"
+					android:text="@string/Btn_cancel"
+					android:textColor="@color/white"
+					android:textSize="18dp"
+					android:textStyle="bold" />
+
+				<View
+					android:layout_width="1dp"
+					android:layout_height="50dp"
+					android:background="@color/white" />
+
+				<!-- 확인  -->
+				<android.widget.Button
+					android:id="@+id/customDialog_PW_btn_Confirm"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:layout_gravity="center"
+					android:layout_weight="1"
+					android:background="@drawable/round_bottom_right_black"
+					android:gravity="center"
+					android:text="@string/Btn_confirm"
+					android:textColor="@color/white"
+					android:textSize="18dp"
+					android:textStyle="bold" />
+			</LinearLayout>
+		</LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,div {margin:0; padding:0; word-wrap:break-word; word-break:keep-all; color:#000; line-height:100% }
+body, select, textarea {color: #333; font-family: 'Malgun Gothic','맑은 고딕',dotum,'돋움', sans-serif; font-size: 100%; font-weight: normal; margin:25px; padding:0px;}
+body {margin: 10px;}
+button, input {font-family: 'Malgun Gothic','맑은 고딕',dotum,'돋움', sans-serif; font-size:100%; margin:0; padding:0px;}
+p {margin:0px;padding:0px}
+div ul li {margin:0px; padding:0px; list-style:none;}
+img {border:none; vertical-align:middle; max-width:100%}
+form {margin:0px}
+em, address {font-style:normal}
+p img {vertical-align:middle;}
+
+.defalt {border:none;}
+
+a:link    {text-decoration:underline; color:blue}
+a:visited    { text-decoration:none; color:#333333}
+a:hover    { text-decoration:none; color:#333333}
+a:active    {text-decoration:none; color:#333333}
+
+.valing {vertical-align:middle;}
+.left {float:left}
+.right {float:right}
+.blind {visibility:hidden; padding:0; margin:0; font-size:0}
+
+.bbs_list .bbs_li {*display:inline-block; _width /**/:100%; border-bottom:1px solid #dcdcdc; padding:12px 60px 12px 85px; cursor:pointer; _cursor:hand;}
+.bbs_list .bbs_li.left_noimg {padding:12px 60px 12px 10px;}
+.bbs_list .bbs_li.right_noimg {padding:12px 10px 12px 85px;}
+.bbs_list .bbs_li.both_noimg {padding:12px 10px 12px 15px;}
+.bbs_list .bbs_li:after {display:block; clear:both; content:''}
+
+.bbs_list .bbs_li .left {float:left; position:relative; left:-80px; width:72px; margin-right:-85px; font-size:0;}
+.bbs_list .bbs_li .left img {width:70px; height:56px;}
+
+.bbs_list .bbs_li .center {float:left; display:inline; width:100%; }
+.bbs_list .bbs_li .center p.title {font-size:1.1em; font-weight:bold;}
+.bbs_list .bbs_li .center p.title .reply_cnt {color:#ff0000; font-weight:normal;}
+.bbs_list .bbs_li .center p.info {font-size:0.9em; margin-top:0.5em; line-height:1.3em; overflow:hidden;}
+.bbs_list .bbs_li .center p.info .male {color:#1d68c4;}
+.bbs_list .bbs_li .center p.info .female {color:#f1004f;}
+
+.bbs_list .bbs_li .right {float:left; position:relative; top:0; left:55px; width:50px; margin-left:-54px; font-size:0;}
+.bbs_list .bbs_li .right img {width:50px; height:45px;}
+.bbs_list .bbs_li .cl {clear:both}
+

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="pie_chart_basic">#53595E</color>
+    <color name="pie_chart_deep">#7030A0</color>>
+    <color name="line_chart_basic">#53595E</color>
+    <color name="line_chart_deep">#5D3696</color>
+    <color name="transparent">#00ff0000</color>
+    <color name="normalPink">#e1464a</color>
+    <color name="bpmcolor">#FC5A5E</color>
+
+
+    <!-- 메인 색상 -->
+    <color name="app_main_color">#7030A0</color>
+    <color name="app_main_color2">#582c96</color>
+    <color name="app_main_color3">#669933</color>
+    <color name="app_theme_color">#8C8C8C</color>
+    <color name="app_theme_color2">#EFF0F0</color>
+    <color name="app_theme_color3">#C9CACA</color>
+    <color name="tilt">#00827F</color>
+
+    <!-- Facebook 색상 -->
+    <color name="facebook_color_darkblue">#0e1f56</color>
+    <color name="facebook_color_blue">#3b5998</color>
+
+    <!-- 텍스트 색상 -->
+    <color name="hint">#8c8c8c</color>
+    <color name="text">#212121</color>
+    <color name="white20">#CCffffff</color>
+
+    <!-- 그래프 색상 -->
+    <color name="graph1">#BDD7EE</color>
+    <color name="graph2">#9DC3E6</color>
+    <color name="graph3">#2E75B6</color>
+    <color name="graph4">#1F4E79</color>
+
+    <!-- 투명액티비티 -->
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <color name="bg">#00000000</color>
+    <color name="bg50">#00000000</color>
+    <color name="item_press">#FF6e6e6e</color>
+
+    <!-- ON/OFF 배경 -->
+    <color name="app_online">#6be459</color>
+
+    <!-- Theme colors -->
+    <color name="theme_window_background">#FFFFFF</color>
+    <color name="theme_window_background_gray">#ECECEC</color>
+
+    <!-- general text colors -->
+    <color name="secondary">#727272</color>
+    <color name="dividers">#DADADA</color>
+
+    <!-- general colors for drawer -->
+    <color name="list_background">#88000000</color>
+    <color name="list_background_pressed">#000000</color>
+    <!-- primary colors for drawer -->
+    <color name="list_background_normal">#88000000</color>
+    <!-- secondary colors for drawer -->
+    <color name="list_background_secondary_normal">#F2F2F2</color>
+
+    <!-- 컬러 -->
+    <color name="ivory">#FFFFF0</color>
+    <color name="red">#fff10800</color>
+    <color name="l_blue">#909BAA</color>
+    <color name="d_blue">#6D7B92</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="gray2">#595959</color>
+    <color name="gray">#DFDFDF</color>
+    <color name="d_gray">#c7c7c7</color>
+    <color name="d_gray_strong">#4b4b4b</color>
+    <color name="d_gray_weak">#e6e6e6</color>
+    <color name="d_gray_round">#8e8d8d</color>
+    <color name="talk_mainlist_nickname">#A6A6A6</color>
+    <color name="talk_mainlist_time">#A6A6A6</color>
+    <color name="talk_contents_time">#A6A6A6</color>
+    <color name="talk_contents_bottom_layout">#A7A7A7</color>
+    <color name="youtube_layout_focus">#f0f0f0</color>
+    <color name="youtube_layout_nomal">#ffffff</color>
+    <color name="main_color">#FF8400</color>
+    <color name="main_back">#f2f2f2</color>
+    <color name="progress_before">#DDDDDD</color>
+
+    <!-- Action bar background -->
+    <color name="actionbar_bg">#88C5F1</color>
+    <color name="actionbar_bg_pressed">#68BAF5</color>
+    <color name="list_item_title">#d7ddee</color>
+    <color name="list_divider">#E4E2D9</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    <color name="grid_bg">#000000</color>
+    <color name="grid_item_bg">#1a1b1d</color>
+    <color name="action_bar">#141416</color>
+    <color name="action_bar_title">#ffffff</color>
+    <color name="settings_label">#323232</color>
+    <color name="black_translucent">#50000000</color>
+    <color name="transparent_black_30">#4D000000</color>
+    <color name="transparent_black_50">#88000000</color>
+    <color name="transparent_black_75">#BB000000</color>
+    <color name="transparent_black_90">#DD000000</color>
+    <color name="transparent2">#FF000000</color>
+
+    <!-- 플로팅버튼 -->
+    <color name="primary">#FF8400</color>
+    <color name="primary_pressed">#FEA443</color>
+    <color name="diable_primary">#FA5561</color>
+    <color name="disable_primary_pressed">#F69097</color>
+    <color name="floating_list_default_menu_color">#646464</color>
+
+    <!-- 탭색상 -->
+    <color name="tab_select_color">#FFD0EC4D</color>
+    <color name="tab_default_color">#FF393939</color>
+
+    <!-- 리스트 텍스트 색깔 -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="title">#000000</color>
+    <!-- 제목 색상 -->
+    <color name="slider_title">#FFFFFF</color>
+    <!-- 제목 색상 -->
+    <color name="content">#000000</color>
+    <!-- 내용 색상 -->
+    <color name="date">#4682B4</color>
+    <!-- 날짜 색상 -->
+    <color name="top_text">#4682B4</color>
+
+    <!-- 상단 타이틀 -->
+    <color name="subject">#000000</color>
+    <!-- 상단 이름 색상 -->
+
+
+    <!-- 내용입력 색깔 -->
+    <color name="edit">#000000</color>
+    <!-- 내용입력 색상 -->
+
+
+    <!-- 패스워드 색상 -->
+    <color name="pw_title">#FF0000</color>
+    <!-- 패스워드 메모 색상 -->
+
+
+    <!-- 글쓰기오른쪽 목록 색상 -->
+    <color name="sub_list_color">#44000000</color>
+    <!-- 글쓰기오른쪽 목록 색상 -->
+
+
+    <!-- 위젯 글씨 색상 -->
+    <color name="widget_text">#000000</color>
+    <!-- 위젯 글씨 색상 -->
+
+
+    <!-- 메인스피너글꼴색상 -->
+    <color name="spinner_color">#FFFFFF</color>
+
+    <!-- 타이틀바색상 -->
+    <color name="title_text">#FFFFFF</color>
+    <color name="title_color">#3F9FE0</color>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="brown">#ffffff</color>
+    <color name="yellow">#FFC81E</color>
+    <color name="darkRed">#8B0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="steelblue">#4682B4</color>
+    <color name="basic">#f6eede</color>
+    <color name="tran_gray">#22C5C3B4</color>
+    <color name="blue_custom">#0099CC</color>
+
+    <!-- 타이틀투명 -->
+    <color name="statusbar_bg">#FFFF8400</color>
+    <color name="default_item_pressed_state_color">#0099cc</color>
+    <color name="default_divider_color">#d3d3d3</color>
+
+    <!-- 뒷배경 -->
+    <color name="half_trans">#ffffff</color>
+
+    <!-- 슬라이드 -->
+    <color name="slide_line">#317edc</color>
+    <color name="slide_title">#1c1c1c</color>
+
+    <!-- 텍스트색상 -->
+    <color name="font_color">#6f7070</color>
+    <!-- <color name="font_color">#4c4d4d</color> -->
+    <color name="font_pay_color">#1c1c1c</color>
+    <color name="font_pay_color2">#317edc</color>
+
+    <!-- 텍스트배경색상 -->
+    <color name="font_backcolor">#77300302</color>
+    <!-- <color name="font_backcolor">#552e2e2e</color> -->
+
+    <!-- 회색라인 -->
+    <color name="gray_line">#ededed</color>
+    <color name="darkgray_line">#969696</color>
+
+    <!-- 리스트선택배경 -->
+    <color name="list_select_color">#5592a7f2</color>
+
+    <!-- 슬라이드배경 -->
+    <color name="slide_background">#88000000</color>
+
+
+    <!-- PulltoRefresh -->
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+</resources>

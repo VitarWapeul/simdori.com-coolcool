@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/touch_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- 배경화면 -->
+	<ImageView
+		android:id="@+id/bg"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		android:background="@drawable/main_background"
+		android:scaleType="fitXY" />
+	
+	
+	<!-- 상단화면 -->
+	<RelativeLayout
+		android:id="@+id/modify_top"
+		android:layout_width="fill_parent"
+		android:layout_height="100dp"
+		android:layout_alignParentTop="true"
+		android:background="@color/black_translucent">
+		<!-- 이전화면 -->
+		<RelativeLayout
+			android:id="@+id/top_back"
+			android:layout_width="50dp"
+			android:layout_height="70dp"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:gravity="center_vertical">
+			<!-- 버튼 -->
+			<android.widget.Button
+				android:id="@+id/btn_back"
+				android:layout_width="20dp"
+				android:layout_height="25dp"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft="15dp"
+				android:background="@drawable/btn_back"
+				android:clickable="false" />
+		</RelativeLayout>
+
+		<!-- 타이틀 -->
+		<TextView
+			android:id="@+id/modify_title"
+			android:layout_width="fill_parent"
+			android:layout_height="70dp"
+			android:layout_alignLeft="@id/top_back"
+			android:layout_marginLeft="50dp"
+			android:gravity="center_vertical"
+			android:text="@string/modify_title"
+			android:textColor="@color/white"
+			android:textSize="40dp" />
+	</RelativeLayout>
+
+    
+	<!-- 실제화면 -->
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/modify_top"
+        android:background="@color/bg" 
+        android:orientation="vertical">
+	    <!-- 아이디 확인 -->
+
+
+		<!-- 이메일 변경 -->
+
+		<TextView
+			android:id="@+id/modify_id_tv"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginBottom="10dp"
+			android:gravity="center"
+			android:text="@string/ID_hint"
+			android:textColor="@color/white"
+			android:textSize="30dp"
+			android:textStyle="bold" />
+
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+			<TextView
+				android:id="@+id/modify_mail_tv"
+				android:layout_width="75dp"
+				android:layout_height="fill_parent"
+				android:background="@drawable/round_view_white2"
+				android:gravity="center_vertical"
+				android:text="@string/Mail_hint"
+				android:textColor="@color/white"
+				android:textSize="18dp" />
+            
+            <View 
+	            android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+	        
+            <!-- 입력 -->
+            <LinearLayout
+                android:id="@+id/modify_mail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white3" >
+	            <EditText
+	                android:id="@+id/modify_mail_edit"
+	                android:layout_width="fill_parent"
+	                android:layout_height="20dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_gravity="center_vertical"
+	                android:gravity="center_vertical"
+	                android:background="@color/white"
+	                android:cursorVisible="true"
+	                android:hint="@string/Required_Field"
+	                android:imeOptions="actionNext"
+	                android:maxLength="30"
+	                android:inputType="textEmailAddress"
+	                android:singleLine="true"
+	                android:textColor="@color/hint"
+	                android:textSize="18dp" />
+	    	</LinearLayout>
+        </LinearLayout>
+        
+        
+        <!-- 전화번호 변경 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+			<TextView
+				android:id="@+id/modify_phone_tv"
+				android:layout_width="75dp"
+				android:layout_height="fill_parent"
+				android:background="@drawable/round_view_white2"
+				android:gravity="center_vertical"
+				android:text="@string/Phone_hint"
+				android:textColor="@color/white"
+				android:textSize="18dp" />
+            
+            <View 
+	            android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+	        
+            <!-- 입력 -->
+            <LinearLayout
+                android:id="@+id/modify_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white3" >
+	            <EditText
+	                android:id="@+id/modify_phone_edit"
+	                android:layout_width="fill_parent"
+	                android:layout_height="20dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_gravity="center_vertical"
+	                android:gravity="center_vertical"
+	                android:background="@color/white"
+	                android:cursorVisible="true"
+	                android:hint="@string/Optional_Field"
+	                android:imeOptions="actionNext"
+	                android:maxLength="15"
+	                android:inputType="phone"
+	                android:singleLine="true"
+	                android:textColor="@color/hint"
+	                android:textSize="18dp" />
+	    	</LinearLayout>
+        </LinearLayout>
+        
+        
+        <!-- 비밀번호 변경 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+			<TextView
+				android:id="@+id/modify_pw_input_tv"
+				android:layout_width="75dp"
+				android:layout_height="fill_parent"
+				android:background="@drawable/round_view_white2"
+				android:gravity="center_vertical"
+				android:text="@string/Btn_password"
+				android:textColor="@color/white"
+				android:textSize="18dp" />
+            
+       	    <View 
+	            android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+	        
+            <!-- 입력 -->
+            <LinearLayout
+               android:id="@+id/modify_pw"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white3" >
+	            <EditText
+	                android:id="@+id/modify_pw_input_edit"
+	                android:layout_width="fill_parent"
+	                android:layout_height="20dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_gravity="center_vertical"
+	                android:gravity="center_vertical"
+	                android:background="@color/white"
+	                android:cursorVisible="true"
+	                android:hint="@string/Required_Field"
+	                android:imeOptions="actionNext"
+	                android:inputType="text"
+	                android:maxLength="30"
+	                android:password="true"
+	                android:singleLine="true"
+	                android:textColor="@color/hint"
+	                android:textSize="18dp" />
+	    	</LinearLayout>
+        </LinearLayout>
+        
+        
+        <!-- 비밀번호 재입력 -->
+       	<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+			<TextView
+				android:id="@+id/modify_pw_check_tv"
+				android:layout_width="75dp"
+				android:layout_height="fill_parent"
+				android:background="@drawable/round_view_white2"
+				android:gravity="center_vertical"
+				android:text="@string/Btn_pass_check2"
+				android:textColor="@color/white"
+				android:textSize="18dp" />
+            
+       	    <View 
+	            android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+	        
+            <!-- 입력 -->
+            <LinearLayout
+                android:id="@+id/modify_pw_check"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white3" >
+	            <EditText
+	                android:id="@+id/modify_pw_check_edit"
+	                android:layout_width="fill_parent"
+	                android:layout_height="20dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp"
+		            android:layout_gravity="center_vertical"
+	                android:gravity="center_vertical"
+	                android:background="@color/white"
+	                android:cursorVisible="true"
+	                android:hint="@string/Required_Field"
+	                android:imeOptions="actionDone"
+	                android:maxLength="30"
+	                android:password="true"
+	                android:singleLine="true"
+	                android:textColor="@color/hint"
+	                android:textSize="18dp" />
+	    	</LinearLayout>
+        </LinearLayout>    
+
+        
+  		<!-- 버튼들 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+            <!-- 취소 -->
+			<android.widget.Button
+				android:id="@+id/modify_btn_cancel"
+				android:layout_width="300dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:background="@drawable/start_btn"
+				android:text="@string/Btn_cancel"
+				android:textColor="@color/white"
+				android:textSize="18dp"
+				android:textStyle="bold" />
+
+            <!-- 확인 -->
+            <android.widget.Button
+                android:id="@+id/modify_btn_confirm"
+                android:layout_width="300dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/start_btn"
+                android:text="@string/Btn_confirm"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        
+        <!-- 서비스 탈퇴 -->
+
+
+		<!-- 회사 로고 -->
+
+		<android.widget.Button
+			android:id="@+id/modify_btn_secession"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_gravity="bottom"
+			android:background="@color/transparent"
+			android:gravity="center|right"
+			android:text="@string/modify_Secession"
+			android:textColor="@color/white"
+			android:textSize="10sp"
+			android:textStyle="bold" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="bottom"
+			android:orientation="vertical">
+
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="20dp"
+				android:gravity="bottom" />
+
+		</LinearLayout>
+    </LinearLayout>
+    
+	
+	<!-- 진행바 -->
+	<ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/rotate_loading"
+        android:indeterminateDuration="1600"
+        android:visibility="gone" />
+</RelativeLayout>

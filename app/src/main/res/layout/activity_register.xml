@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/touch_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 배경화면 -->
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/main_background"
+        android:scaleType="fitXY" />
+
+
+    <!-- 상단화면 -->
+    <RelativeLayout
+        android:id="@+id/register_top"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/black_translucent">
+        <!-- 이전화면 -->
+        <RelativeLayout
+            android:id="@+id/top_back"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical">
+            <!-- 버튼 -->
+            <android.widget.Button
+                android:id="@+id/btn_back"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_back"
+                android:clickable="false" />
+        </RelativeLayout>
+
+        <!-- 타이틀 -->
+        <TextView
+            android:id="@+id/register_title"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@id/top_back"
+            android:layout_marginLeft="50dp"
+            android:gravity="center_vertical"
+            android:text="회원가입"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+    </RelativeLayout>
+
+
+    <!-- 실제화면 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/register_top"
+        android:background="#00000000"
+        android:orientation="vertical" >
+        <!-- ID 입력창 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+            <TextView
+                android:id="@+id/register_id_tv"
+                android:layout_width="75dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white2"
+                android:gravity="center_vertical"
+                android:text="ID"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+
+            <!-- 입력 -->
+            <LinearLayout
+                android:id="@+id/register_id"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_edit_white3" >
+
+                <EditText
+                    android:id="@+id/register_id_input"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    android:cursorVisible="true"
+                    android:hint="필수 입력사항"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="17"
+                    android:singleLine="true"
+                    android:textColor="@color/hint"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- 이메일 입력창 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+            <TextView
+                android:id="@+id/register_mail_tv"
+                android:layout_width="75dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white2"
+                android:gravity="center_vertical"
+                android:text="EMAIL"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+
+            <!-- 입력 -->
+            <LinearLayout
+                android:id="@+id/register_mail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white3" >
+
+                <EditText
+                    android:id="@+id/register_mail_input"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    android:cursorVisible="true"
+                    android:hint="필수 입력사항"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:textColor="@color/hint"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- 전화번호 입력창 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+            <TextView
+                android:id="@+id/register_phone_tv"
+                android:layout_width="75dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white2"
+                android:gravity="center_vertical"
+                android:text="핸드폰"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+
+            <!-- 입력 -->
+            <LinearLayout
+                android:id="@+id/register_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white3" >
+
+                <EditText
+                    android:id="@+id/register_phone_input"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    android:cursorVisible="true"
+                    android:hint="선택 입력사항"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLength="15"
+                    android:singleLine="true"
+                    android:textColor="@color/hint"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- 비밀번호 입력창 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+            <TextView
+                android:id="@+id/register_pw_input_tv"
+                android:layout_width="75dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white2"
+                android:gravity="center_vertical"
+                android:text="비밀번호"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+
+            <!-- 입력 -->
+            <LinearLayout
+                android:id="@+id/register_pw"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white3" >
+
+                <EditText
+                    android:id="@+id/register_pw_input"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    android:cursorVisible="true"
+                    android:hint="필수 입력사항"
+                    android:imeOptions="actionNext"
+                    android:inputType="textVisiblePassword"
+                    android:maxLength="30"
+                    android:password="true"
+                    android:singleLine="true"
+                    android:textColor="@color/hint"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- 비밀번호 재입력 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_view_white2"
+            android:orientation="horizontal" >
+            <!-- 타이틀 -->
+            <TextView
+                android:id="@+id/register_pw_check_tv"
+                android:layout_width="75dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white2"
+                android:gravity="center_vertical"
+                android:text="비밀번호\n재입력"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"/>
+
+            <!-- 입력 -->
+            <LinearLayout
+                android:id="@+id/register_pw_check"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_view_white3" >
+
+                <EditText
+                    android:id="@+id/register_pw_inputcheck"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    android:cursorVisible="true"
+                    android:hint="필수 입력사항"
+                    android:imeOptions="actionDone"
+                    android:inputType="textVisiblePassword"
+                    android:maxLength="30"
+                    android:password="true"
+                    android:singleLine="true"
+                    android:textColor="@color/hint"
+                    android:textSize="18dp"></EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- 회원가입 약관 동의창 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginBottom="10dp" >
+            <!-- 동의 체크 -->
+            <CheckBox
+                android:id="@+id/register_agreements_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="10dp"
+                android:background="@drawable/transparent_background"
+                android:text="회원가입 약관에 동의합니다."
+                android:textColor="@color/hint"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- 약관 보기 -->
+            <android.widget.Button
+                android:id="@+id/register_agreements_btn"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/start_btn"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="@string/Btn_show"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <!-- 개인정보취급방침 동의창 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginBottom="10dp" >
+            <!-- 동의 체크 -->
+            <CheckBox
+                android:id="@+id/register_personal_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="10dp"
+                android:background="@drawable/transparent_background"
+                android:text="@string/register_terms_personal"
+                android:textColor="@color/hint"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- 방침 보기 -->
+            <android.widget.Button
+                android:id="@+id/register_personal_btn"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/start_btn"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="@string/Btn_show"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <!-- 모두 동의창 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginBottom="10dp" >
+            <!-- 동의 체크 -->
+            <CheckBox
+                android:id="@+id/register_all_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:background="@drawable/transparent_background"
+                android:text="@string/register_terms_all"
+                android:textColor="@color/hint"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <!-- 버튼들 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal" >
+            <!-- 취소 -->
+            <android.widget.Button
+                android:id="@+id/register_btn_cancel"
+                android:layout_width="300dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/start_btn"
+                android:text="@string/Btn_cancel"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- 확인 -->
+            <android.widget.Button
+                android:id="@+id/register_btn_confirm"
+                android:layout_width="300dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/start_btn"
+                android:text="@string/Btn_confirm"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+<!--        &lt;!&ndash; 회사 로고 &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/logo"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="bottom">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:gravity="bottom"-->
+<!--                android:background="@drawable/logo_copyright" />-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+
+    <!-- 진행바 -->
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/rotate_loading"
+        android:indeterminateDuration="1600"
+        android:visibility="gone" />
+</RelativeLayout>

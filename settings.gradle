@@ -1,0 +1,4 @@
+include ':naveridlogin_android_sdk_4.2.6'
+include ':naveridlogin_android_sdk_4.2.0'
+include ':app'
+rootProject.name = "Sleep"
