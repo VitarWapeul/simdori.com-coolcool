@@ -53,22 +53,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Sleep" >
         <activity android:name="sleep.simdori.com.activity.LoadingActivity" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
-        <activity android:name="sleep.simdori.com.activity.Guide1stActivity" />
-        <activity android:name="sleep.simdori.com.activity.Guide2ndActivity" />
-        <activity android:name="sleep.simdori.com.activity.HomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="sleep.simdori.com.activity.Guide1stActivity" />
+        <activity android:name="sleep.simdori.com.activity.Guide2ndActivity" />
+        <activity android:name="sleep.simdori.com.activity.HomeActivity" >
         </activity>
         <activity android:name="sleep.simdori.com.activity.LoginActivity" />
         <!-- <activity android:name=".activity.SignupActivity"></activity> -->

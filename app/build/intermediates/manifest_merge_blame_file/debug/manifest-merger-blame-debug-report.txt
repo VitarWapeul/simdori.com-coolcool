@@ -78,7 +78,7 @@
 40-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
 41
 42    <application
-42-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:15:5-62:19
+42-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:15:5-57:19
 43        android:name="androidx.multidex.MultiDexApplication"
 44        android:allowBackup="true"
 44-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:16:9-35
@@ -103,178 +103,171 @@
 55        <activity android:name="sleep.simdori.com.activity.LoadingActivity" >
 55-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:25:9-31:20
 55-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:25:19-59
-56
-57            <!-- <intent-filter> -->
-58            <!-- <action android:name="android.intent.action.MAIN" /> -->
-59
-60
-61            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-62            <!-- </intent-filter> -->
-63        </activity>
-64        <activity android:name="sleep.simdori.com.activity.Guide1stActivity" />
-64-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:32:9-72
-64-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:32:19-60
-65        <activity android:name="sleep.simdori.com.activity.Guide2ndActivity" />
-65-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:33:9-72
-65-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:33:19-60
-66        <activity android:name="sleep.simdori.com.activity.HomeActivity" >
-66-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:34:9-40:20
-66-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:34:19-56
-67            <intent-filter>
-67-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:35:13-39:29
-68                <action android:name="android.intent.action.MAIN" />
-68-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:36:17-69
-68-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:36:25-66
-69
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:38:17-77
-70-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:38:27-74
-71            </intent-filter>
-72        </activity>
-73        <activity android:name="sleep.simdori.com.activity.LoginActivity" />
-73-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:41:9-69
-73-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:41:19-57
-74        <!-- <activity android:name=".activity.SignupActivity"></activity> -->
-75        <activity android:name="sleep.simdori.com.activity.ModifyActivity" />
-75-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:43:9-70
-75-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:43:19-58
-76        <activity
-76-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:44:9-45:81
-77            android:name="sleep.simdori.com.activity.SleepTrackingActivity"
-77-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:44:19-65
-78            android:theme="@style/AppTheme.SlidrActivityTheme" />
-78-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:45:19-69
-79        <activity android:name="sleep.simdori.com.activity.RegisterActivity" />
-79-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:46:9-72
-79-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:46:19-60
-80        <activity android:name="sleep.simdori.com.activity.IotManageActivity" >
-80-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:47:9-48:20
-80-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:47:19-61
-81        </activity>
-82
-83        <!-- Mqtt Service -->
-84        <service android:name="org.eclipse.paho.android.service.MqttService" >
-84-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:51:9-52:19
-84-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:51:18-77
-85        </service>
-86
-87        <receiver android:name="sleep.simdori.com.mqtt.BootReceiver" >
-87-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:54:9-58:20
-87-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:54:19-69
-88            <intent-filter>
-88-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:55:13-57:29
-89                <action android:name="android.intent.action.BOOT_COMPLETED" />
-89-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:56:17-78
-89-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:56:25-76
-90            </intent-filter>
-91        </receiver>
-92
-93        <service android:name="sleep.simdori.com.mqtt.MQTTservice" >
-93-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:60:9-61:19
-93-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:60:18-67
-94        </service>
-95
+56            <intent-filter>
+56-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:26:13-30:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:27:17-69
+57-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:27:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:29:17-77
+59-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:29:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="sleep.simdori.com.activity.Guide1stActivity" />
+62-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:32:9-72
+62-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:32:19-60
+63        <activity android:name="sleep.simdori.com.activity.Guide2ndActivity" />
+63-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:33:9-72
+63-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:33:19-60
+64        <activity android:name="sleep.simdori.com.activity.HomeActivity" >
+64-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:34:9-35:20
+64-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:34:19-56
+65        </activity>
+66        <activity android:name="sleep.simdori.com.activity.LoginActivity" />
+66-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:36:9-69
+66-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:36:19-57
+67        <!-- <activity android:name=".activity.SignupActivity"></activity> -->
+68        <activity android:name="sleep.simdori.com.activity.ModifyActivity" />
+68-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:38:9-70
+68-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:38:19-58
+69        <activity
+69-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:39:9-40:81
+70            android:name="sleep.simdori.com.activity.SleepTrackingActivity"
+70-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:39:19-65
+71            android:theme="@style/AppTheme.SlidrActivityTheme" />
+71-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:40:19-69
+72        <activity android:name="sleep.simdori.com.activity.RegisterActivity" />
+72-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:41:9-72
+72-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:41:19-60
+73        <activity android:name="sleep.simdori.com.activity.IotManageActivity" >
+73-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:42:9-43:20
+73-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:42:19-61
+74        </activity>
+75
+76        <!-- Mqtt Service -->
+77        <service android:name="org.eclipse.paho.android.service.MqttService" >
+77-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:46:9-47:19
+77-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:46:18-77
+78        </service>
+79
+80        <receiver android:name="sleep.simdori.com.mqtt.BootReceiver" >
+80-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:49:9-53:20
+80-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:49:19-69
+81            <intent-filter>
+81-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:50:13-52:29
+82                <action android:name="android.intent.action.BOOT_COMPLETED" />
+82-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:51:17-78
+82-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:51:25-76
+83            </intent-filter>
+84        </receiver>
+85
+86        <service android:name="sleep.simdori.com.mqtt.MQTTservice" >
+86-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:55:9-56:19
+86-->C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:55:18-67
+87        </service>
+88
+89        <activity
+89-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:17:9-19:67
+90            android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
+90-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:18:13-76
+91            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+91-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:19:13-64
+92        <activity
+92-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:20:9-23:47
+93            android:name="com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity"
+93-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:21:13-88
+94            android:configChanges="orientation|screenSize"
+94-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:22:13-59
+95            android:label="OAuth2.0 In-app" />
+95-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:23:13-44
 96        <activity
-96-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:17:9-19:67
-97            android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
-97-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:18:13-76
-98            android:theme="@style/Theme.AppCompat.Light.Dialog" />
-98-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:19:13-64
-99        <activity
-99-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:20:9-23:47
-100            android:name="com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity"
-100-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:21:13-88
-101            android:configChanges="orientation|screenSize"
-101-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:22:13-59
-102            android:label="OAuth2.0 In-app" />
-102-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:23:13-44
-103        <activity
-103-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:24:9-40:20
-104            android:name="com.nhn.android.naverlogin.ui.OAuthCustomTabActivity"
-104-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:25:13-80
-105            android:configChanges="orientation|screenSize"
-105-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:26:13-59
-106            android:launchMode="singleTask"
-106-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:27:13-44
-107            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-107-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:28:13-72
-108            <intent-filter>
-108-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:29:13-39:29
-109                <action android:name="android.intent.action.VIEW" />
-109-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:30:17-69
-109-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:30:25-66
-110
-111                <category android:name="android.intent.category.DEFAULT" />
-111-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:32:17-76
-111-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:32:27-73
-112                <category android:name="android.intent.category.BROWSABLE" />
-112-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:33:17-78
-112-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:33:27-75
-113                <!-- Intent URL 에서 로그인 액티비티를 실행하기 위해 설정 -->
-114                <data
-114-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:35:17-38:59
-115                    android:host="authorize"
-115-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:36:21-45
-116                    android:path="/"
-116-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:37:21-37
-117                    android:scheme="naver3rdpartylogin" />
-117-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:38:21-56
-118            </intent-filter>
-119        </activity>
+96-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:24:9-40:20
+97            android:name="com.nhn.android.naverlogin.ui.OAuthCustomTabActivity"
+97-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:25:13-80
+98            android:configChanges="orientation|screenSize"
+98-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:26:13-59
+99            android:launchMode="singleTask"
+99-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:27:13-44
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+100-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:28:13-72
+101            <intent-filter>
+101-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:29:13-39:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:30:17-69
+102-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:30:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:32:17-76
+104-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:32:27-73
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:33:17-78
+105-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:33:27-75
+106                <!-- Intent URL 에서 로그인 액티비티를 실행하기 위해 설정 -->
+107                <data
+107-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:35:17-38:59
+108                    android:host="authorize"
+108-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:36:21-45
+109                    android:path="/"
+109-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:37:21-37
+110                    android:scheme="naver3rdpartylogin" />
+110-->[com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:38:21-56
+111            </intent-filter>
+112        </activity>
+113        <activity
+113-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
+114            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+114-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
+115            android:clearTaskOnLaunch="true"
+115-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
+116            android:screenOrientation="sensorLandscape"
+116-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
+117            android:stateNotNeeded="true"
+117-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
+118            android:theme="@style/zxing_CaptureTheme"
+118-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
+119            android:windowSoftInputMode="stateAlwaysHidden" />
+119-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
 120        <activity
-120-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
-121            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-121-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
-122            android:clearTaskOnLaunch="true"
-122-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
-123            android:screenOrientation="sensorLandscape"
-123-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
-124            android:stateNotNeeded="true"
-124-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
-125            android:theme="@style/zxing_CaptureTheme"
-125-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
-126            android:windowSoftInputMode="stateAlwaysHidden" />
-126-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\05a1d6fed7b20b468b640b4c870366d9\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
-127        <activity
-127-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
-128            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-128-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
-129            android:excludeFromRecents="true"
-129-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
-130            android:exported="false"
-130-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
-131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-131-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
-132        <!--
-133            Service handling Google Sign-In user revocation. For apps that do not integrate with
-134            Google Sign-In, this service will never be started.
-135        -->
-136        <service
-136-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
-137            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-137-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
-138            android:exported="true"
-138-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
-139            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-139-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
-140            android:visibleToInstantApps="true" />
-140-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
-141
-142        <activity
-142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-143            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-144            android:exported="false"
-144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-146
-147        <meta-data
-147-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\best\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-148            android:name="com.google.android.gms.version"
-148-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\best\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-149            android:value="@integer/google_play_services_version" />
-149-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\best\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-150    </application>
-151
-152</manifest>
+120-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+121            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+121-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+122            android:excludeFromRecents="true"
+122-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+123            android:exported="false"
+123-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+125        <!--
+126            Service handling Google Sign-In user revocation. For apps that do not integrate with
+127            Google Sign-In, this service will never be started.
+128        -->
+129        <service
+129-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+130            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+130-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+131            android:exported="true"
+131-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+132            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+132-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+133            android:visibleToInstantApps="true" />
+133-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+134
+135        <activity
+135-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+136            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+136-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+139
+140        <meta-data
+140-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\best\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+141            android:name="com.google.android.gms.version"
+141-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\best\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+142            android:value="@integer/google_play_services_version" />
+142-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\best\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+143    </application>
+144
+145</manifest>

@@ -2,7 +2,6 @@ package sleep.simdori.com.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -33,32 +32,16 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import sleep.simdori.com.AppConst;
-import sleep.simdori.com.DB.HeartbeatDB;
 import sleep.simdori.com.Math.Fft;
 import sleep.simdori.com.R;
 
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.common.util.JsonUtils;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.Viewport;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
-import com.nhn.android.naverlogin.OAuthLogin;
-import com.nhn.android.naverlogin.data.OAuthLoginState;
-
-import org.eclipse.paho.android.service.MqttAndroidClient;
-import org.eclipse.paho.client.mqttv3.DisconnectedBufferOptions;
-import org.eclipse.paho.client.mqttv3.IMqttActionListener;
-import org.eclipse.paho.client.mqttv3.IMqttToken;
-import org.eclipse.paho.client.mqttv3.MqttClient;
-import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
-import org.eclipse.paho.client.mqttv3.MqttException;
-import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -67,16 +50,10 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.TimeZone;
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import javax.security.auth.callback.CallbackHandler;
-
 import sleep.simdori.com.activity.HomeActivity;
-import sleep.simdori.com.activity.ModifyActivity;
 import sleep.simdori.com.asynctask.Set_BPMAsyncTask;
-import sleep.simdori.com.asynctask.Set_RegisterAsyncTask;
 import sleep.simdori.com.mqtt.MQTTservice;
 import sleep.simdori.com.util.DatabaseHandler;
 import sleep.simdori.com.util.ImageProcessing;
@@ -543,7 +520,7 @@ public class MeasureFragment extends Fragment implements View.OnClickListener {
 
                 getFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.mainFragmennt, resultFragment)
+                        .replace(R.id.mainFragment, resultFragment)
                         .commit();
 
                 Toast toast = Toast.makeText(getActivity().getApplicationContext(), "출력할 문자열", Toast.LENGTH_SHORT);

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\e9ced638b301a5c6c7cfa266bf84478f\jetified-butterknife-8.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\6131b6bd4c7f07422046f47512bfed9d\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\314ddabac08c2f17d75c1c576a51a54d\jetified-slidableactivity-2.0.6\AndroidManifest.xml:2:1-11:12
@@ -56,20 +56,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\best\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\06bc4641de51b04d4df94808d6e05292\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\1b64911e987df0fea019408e241659d7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\best\.gradle\caches\transforms-2\files-2.1\a77c810a56173ccf6fb339f045a6aacd\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:2:11-69
@@ -116,7 +116,7 @@ ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main
 	android:name
 		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:13:22-78
 application
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:15:5-62:19
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:15:5-57:19
 MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\314ddabac08c2f17d75c1c576a51a54d\jetified-slidableactivity-2.0.6\AndroidManifest.xml:9:5-20
 MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\314ddabac08c2f17d75c1c576a51a54d\jetified-slidableactivity-2.0.6\AndroidManifest.xml:9:5-20
 MERGED from [com.naver.nid:naveridlogin-android-sdk:4.2.6] C:\Users\best\.gradle\caches\transforms-2\files-2.1\050c3922b104a9a8014c58faadec5df0\jetified-naveridlogin-android-sdk-4.2.6\AndroidManifest.xml:16:5-41:19
@@ -161,6 +161,16 @@ activity#sleep.simdori.com.activity.LoadingActivity
 ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
 		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:25:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:29:27-74
 activity#sleep.simdori.com.activity.Guide1stActivity
 ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:32:9-72
 	android:name
@@ -170,59 +180,49 @@ ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main
 	android:name
 		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:33:19-60
 activity#sleep.simdori.com.activity.HomeActivity
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:34:9-40:20
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:34:9-35:20
 	android:name
 		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:34:19-56
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:35:13-39:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:36:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:38:17-77
-	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:38:27-74
 activity#sleep.simdori.com.activity.LoginActivity
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:41:9-69
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:36:9-69
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:41:19-57
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:36:19-57
 activity#sleep.simdori.com.activity.ModifyActivity
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:43:9-70
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:38:9-70
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:43:19-58
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:38:19-58
 activity#sleep.simdori.com.activity.SleepTrackingActivity
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:44:9-45:81
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:39:9-40:81
 	android:theme
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:45:19-69
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:40:19-69
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:44:19-65
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:39:19-65
 activity#sleep.simdori.com.activity.RegisterActivity
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:46:9-72
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:41:9-72
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:46:19-60
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:41:19-60
 activity#sleep.simdori.com.activity.IotManageActivity
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:47:9-48:20
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:42:9-43:20
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:47:19-61
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:42:19-61
 service#org.eclipse.paho.android.service.MqttService
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:51:9-52:19
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:46:9-47:19
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:51:18-77
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:46:18-77
 receiver#sleep.simdori.com.mqtt.BootReceiver
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:54:9-58:20
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:49:9-53:20
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:54:19-69
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:49:19-69
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:55:13-57:29
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:50:13-52:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:56:17-78
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:51:17-78
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:56:25-76
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:51:25-76
 service#sleep.simdori.com.mqtt.MQTTservice
-ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:60:9-61:19
+ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:55:9-56:19
 	android:name
-		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:60:18-67
+		ADDED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml:55:18-67
 uses-sdk
 INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\best\AndroidStudioProjects\simdori.com-coolcool\app\src\main\AndroidManifest.xml

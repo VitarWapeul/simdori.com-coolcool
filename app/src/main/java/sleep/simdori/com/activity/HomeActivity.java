@@ -39,7 +39,7 @@ public class HomeActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottomNavBar);
 
         fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.mainFragmennt, homeFragment).commitAllowingStateLoss();
+        fragmentTransaction.replace(R.id.mainFragment, homeFragment).commitAllowingStateLoss();
 
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -48,19 +48,19 @@ public class HomeActivity extends AppCompatActivity {
                 switch(item.getItemId()){
                     case R.id.action_home:
                         fragmentTransaction = fragmentManager.beginTransaction();
-                        fragmentTransaction.replace(R.id.mainFragmennt, homeFragment).commitAllowingStateLoss();
+                        fragmentTransaction.replace(R.id.mainFragment, homeFragment).commitAllowingStateLoss();
                         return true;
                     case R.id.action_Sleep_record:
                         fragmentTransaction = fragmentManager.beginTransaction();
-                        fragmentTransaction.replace(R.id.mainFragmennt, recordFragment).commitAllowingStateLoss();
+                        fragmentTransaction.replace(R.id.mainFragment, recordFragment).commitAllowingStateLoss();
                         return true;
                     case R.id.action_BPM_record:
                         fragmentTransaction = fragmentManager.beginTransaction();
-                        fragmentTransaction.replace(R.id.mainFragmennt, bpmResultFragment).commitAllowingStateLoss();
+                        fragmentTransaction.replace(R.id.mainFragment, bpmResultFragment).commitAllowingStateLoss();
                         return true;
                     case R.id.action_setting:
                         fragmentTransaction = fragmentManager.beginTransaction();
-                        fragmentTransaction.replace(R.id.mainFragmennt, settingFragment).commitAllowingStateLoss();
+                        fragmentTransaction.replace(R.id.mainFragment, settingFragment).commitAllowingStateLoss();
                         return true;
                 }
                 return false;
@@ -73,7 +73,7 @@ public class HomeActivity extends AppCompatActivity {
     public void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.mainFragmennt, fragment).commit();
+        fragmentTransaction.replace(R.id.mainFragment, fragment).commit();
     }
 
     //뒤로가기 버튼을 뺏어올 리스너 등록
